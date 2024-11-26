@@ -1,8 +1,5 @@
 from flask import Flask, render_template, request
-from flask_cors import CORS
-
 app = Flask(__name__)
-CORS(app)  # 启用跨域支持
 
 @app.route('/user')
 def user():
