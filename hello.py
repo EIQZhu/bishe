@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/user')
 def user():
-    return render_template('page1.html')
+    return render_template('index.html')
     
 @app.route('/page2.html')
 def page2():
